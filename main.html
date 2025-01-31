@@ -1,24 +1,52 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inception - Movie Overview</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-<h1>Testing</h1>
-	<nav>Navbar</nav>
-<img src="image.jpg" alt="Sunset">
-<p>A beautiful sunset over the ocean.</p>	
-	<ul>
-	<li>Box</li>
-	<li>Pen</li>
-	<li>Eraser</li>
-	</ul>
-	<script type="text/javascript" src="./script.js">
-</script>
-
+    <header role="banner">
+        <h1>Inception</h1>
+    </header>
+    
+    <nav role="navigation">
+        <ul>
+            <li><a href="#actor">Actors</a></li>
+            <li><a href="#quote">Quotes</a></li>
+            <li><a href="#description">Description</a></li>
+        </ul>
+    </nav>
+    
+    <section id="description" role="region">
+        <h2>About the Movie</h2>
+        <img src="inception.jpg" alt="Inception Movie Poster" role="img">
+        <p>Inception is a science fiction thriller that follows Dom Cobb, a skilled thief who steals secrets from within people's subconscious through dream manipulation.</p>
+    </section>
+    
+    <section id="actor" role="region">
+        <h2>Actors</h2>
+        <ul>
+            <li>Leonardo DiCaprio as Dom Cobb</li>
+            <li>Joseph Gordon-Levitt as Arthur</li>
+            <li>Ellen Page as Ariadne</li>
+        </ul>
+    </section>
+    
+    <section id="quote" role="region">
+        <h2>Quotes</h2>
+        <p>"You mustn't be afraid to dream a little bigger, darling." - Eames</p>
+    </section>
+    
+    <aside role="complementary">
+        <h2>Additional Information</h2>
+        <p>IMDb Rating: 8.8/10</p>
+        <p>Release Date: July 16, 2010</p>
+    </aside>
+    
+    <footer role="contentinfo">
+        <p>Produced by: Emma Thomas</p>
+    </footer>
 </body>
-
 </html>
